@@ -1,4 +1,4 @@
-# Scrape-Sentiment-Analysis
+# Web Scraping & Sentiment Analysis
 
 ## Web Scraping Instructions
 Run scrape.py to output the results of web scraping as output.json.  
@@ -13,8 +13,8 @@ After removing unnecessary data such as publication date and images by extractin
 Entire.png provides an overview of the overall sentiment trends of Aljazeera news in Mozambique, while Sentence.png provides more detailed sentiment analysis of each article.
 See the comments on sentiment.py for the specific functionality of the code.  
 ## Sample Results
-<p align="center">
-  <img src="screenshot/Sentence.png" alt="drawing" width="600"/>
+<p>
+  <img src="screenshot/Sentence.png" alt="drawing" width="900"/>
 </p>
 
 ## Total operation time  
