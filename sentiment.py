@@ -1,11 +1,7 @@
 from textblob import TextBlob
 import json
 from langdetect import detect
-from tqdm import tqdm
-import numpy as np
 import pandas as pd
-import seaborn as sns
-import matplotlib.pyplot as plt
 import plotly.graph_objects as go
 from plotly.subplots import make_subplots
 import plotly.express as px
