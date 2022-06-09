@@ -3,7 +3,7 @@
 ## Web Scraping Instructions
 Run scrape.py to output the results of web scraping as output.json.  
 ## Web Scraping Description
-The web scraping code is described in scrape.py. Beautiful Soup was used in this program to scrape the ten most recent news items listed at https://www.aljazeera.com/where/mozambique/. The JSON contains the title, subtitle, contents, image(URL link), figure caption, publication date, and data source. See comments in scrape.py for specific functionality of the code.  
+The web scraping code is described in scrape.py. Beautiful Soup was used to scrape the ten most recent news items listed at https://www.aljazeera.com/where/mozambique/. The JSON contains the title, subtitle, contents, image(URL link), figure caption, publication date, and data source. See comments in scrape.py for specific functionality of the code.  
 
 ## Sentiment Analysis Instructions
 Run sentiment.py to compute the sentiment of each news article and display the sentiment analysis results in the browser.  
