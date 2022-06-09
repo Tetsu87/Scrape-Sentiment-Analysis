@@ -13,12 +13,23 @@ After removing unnecessary data such as publication date and images by extractin
 Entire.png provides an overview of the overall sentiment trends of Aljazeera news in Mozambique, while Sentence.png provides more detailed sentiment analysis of each article.
 See the comments on sentiment.py for the specific functionality of the code.  
 ## Results
+fig1: Sentiment Analysis Using the Entire Content of Each Article 
 <p>
-  <img src="screenshot/Entire.png" alt="drawing" width="600"/>
+  <img src="screenshot/Entire.png" alt="drawing" width="400"/>
 </p>
+
+fig2: Sentiment Analysis of Each Article in Sentence Level
 <p>
   <img src="screenshot/Sentence.png" alt="drawing" width="900"/>
 </p>
+
+The sentiment analysis results for the entire article show that Polarity did not swing significantly between positive and negative and was generally slightly more positive than zero.
+Subjectivity also did not swing significantly from article to article and was generally concentrated around 0.4.  
+
+Although the articles analyzed in this study contained negative themes such as natural disasters and conflicts, the news articles did not significantly impact Polarity because they seemed to portray factual information.  
+
+Because TextBlob's use of a weighted average of sentiment scores, there is a possibility that the large positive scores may offset the large negative scores. However, the sentiment analysis of each article at the sentence level shows almost no significant positive or negative swings in Polarity, supporting the above considerations.  
+
 
 ## Total operation time  
 4 hours
