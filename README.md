@@ -26,10 +26,10 @@ fig2: Sentiment Analysis of Each Article in Sentence Level
 The sentiment analysis results for the entire article show that Polarity did not swing significantly between positive and negative and was generally slightly more positive than zero.
 Subjectivity also did not swing significantly from article to article and was generally concentrated around 0.4.  
 
-Although the articles analyzed in this study contained negative themes such as natural disasters and conflicts, the news articles did not significantly impact Polarity because they seemed to portray factual information.  
+Although the articles analyzed in this study contained negative themes such as natural disasters and conflicts, the news articles did not significantly impact Polarity because it seems they only reported factual information.
 
-Because TextBlob's use of a weighted average of sentiment scores, there is a possibility that the large positive scores may offset the large negative scores. However, the sentiment analysis of each article at the sentence level shows almost no significant positive or negative swings in Polarity, supporting the above considerations.  
+Because TextBlob's use of a weighted average of sentiment scores, there is a possibility that the large positive scores may offset the large negative scores. However, the sentiment analysis of each article at the sentence level did not show significant positive or negative swings in Polarity, supporting the above considerations.  
 
 
 ## Total operation time  
-4 hours
+4.5 hours
