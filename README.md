@@ -12,7 +12,10 @@ Sentiment analysis was performed using TextBlob.
 After removing unnecessary data such as publication date and images by extracting contents from JSON and confirming that the article is in English, sentiment analysis was performed on the entire article (Entire.png) and each sentence (Sentence.png).
 Entire.png provides an overview of the overall sentiment trends of Aljazeera news in Mozambique, while Sentence.png provides more detailed sentiment analysis of each article.
 See the comments on sentiment.py for the specific functionality of the code.  
-## Sample Results
+## Results
+<p>
+  <img src="screenshot/Entire.png" alt="drawing" width="600"/>
+</p>
 <p>
   <img src="screenshot/Sentence.png" alt="drawing" width="900"/>
 </p>
