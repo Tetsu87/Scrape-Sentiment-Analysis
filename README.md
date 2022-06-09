@@ -24,7 +24,7 @@ fig2: Sentiment Analysis of Each Article in Sentence Level
 </p>
 
 The sentiment analysis results for the entire article show that Polarity did not swing significantly between positive and negative and was generally slightly more positive than zero.
-Subjectivity also did not swing significantly from article to article and was generally concentrated around 0.4.  
+Subjectivity also did not swing significantly from article to article and was generally concentrated around 0.4. Note that although one article is largely negative, with a Polarity of -0.5, this article is mainly video, and the text itself is very short, so it cannot be taken as meaningful data.  
 
 Although the articles analyzed in this study contained negative themes such as natural disasters and conflicts, the news articles did not significantly impact Polarity because it seems they only reported factual information.
 
